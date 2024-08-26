@@ -6,10 +6,6 @@ body {
 }
 
 #slots {
-  height: vh;
-  /* display: flex;
-  flex-direction: column;
-  gap: 0.5em; */
   display: grid;
   grid-template-columns: 2fr 3fr;
   row-gap: 0.5em;
