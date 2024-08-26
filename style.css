@@ -11,8 +11,9 @@ body {
   row-gap: 0.5em;
   border: solid black 1px;
   padding: 0.5em;
+  width: 90vw;
+  max-width: 25em;
 }
-
 
 #slots > :nth-child(9) {
   grid-column: span 2;
@@ -20,10 +21,4 @@ body {
 
 select {
   width: 100%;
-}
-
-@media (max-width: 50em) {
-  #slots {
-    width: 90vw; 
-  }
 }
