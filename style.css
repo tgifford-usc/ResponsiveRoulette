@@ -25,3 +25,9 @@ body {
 select {
   width: 100%;
 }
+
+@media (width < 50em) {
+  #slots {
+    width: 90vw; 
+  }
+}
