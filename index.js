@@ -1,6 +1,6 @@
 const forms = ['mobile app', 'custom hardware', 'hybrid'];
 const configurations = ['solo', 'duo', 'multiperson', 'nonhuman'];
-const inputs = ['environmental sensors', 'internet data', 'biometrics', 'location of people', 'location of things', 'manual controls'];
+const inputs = ['environmental sensors', 'internet data', 'biometrics', 'location ', 'manual controls'];
 const outputs = ['visual', 'sonic', 'kinetic', 'haptic', 'informational'];
 
 const formSelect = document.getElementById('formSelect');
